@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS 2 Support - Gregory Nagels</title>
+  <title>Project NIS 2</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
-  </script>
-  <link rel="stylesheet" href="css/style.css">
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+    defer></script>
+  <script src="js/script.js" defer></script> 
 </head>
 
 <body>
@@ -81,7 +81,7 @@
         
           <h3>Zorg Vilvoorde</h3>
           <figure class="float-start me-4 mb-2" style="width: 150px;">
-            <img src="assets/zorgvilvoorde.jpg" class="rounded img-fluid" alt="Zorg Vilvoorde">
+            <img src="assets/zorgvilvoorde.jpg" class="img" alt="Zorg Vilvoorde">
             <figcaption class="text-center small text-muted">AI copyright</figcaption>
           </figure>
           <p>Bij Zorg Vilvoorde zijn wij na een een tijlange samenwerking nu ook een NIS 2 traject opgestart, zodat zij conform de NIS 2 wetgeving kunnen verder werken in 2026. Gezien zij een zorginstelling zijn is de betreffende wetgeving namelijk reeds van kracht vanaf 2026 tov 2031.</p>
@@ -105,40 +105,24 @@
       </main>
 
       <aside class="col-md-3 border-start ps-md-5">
-        <h2 class="text-uppercase fs-5 fw-bolder pt-3">contact</h2>
+        <h1>Contact</h1>
         <p>Gregory Nagels<br>
           <a href="mailto:info@systeembeheer.be">info@systeembeheer.be</a><br>
-          +32 45 67 89
+          +32 447 05 08
         </p>
         <ul class="list-inline socials">
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com" target="_blank">
-              <i class="bi bi-youtube fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com" target="_blank">
-              <i class="bi bi-instagram fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="bi bi-facebook fs-6"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/" target="_blank">
-              <i class="bi bi-twitter-x fs-6"></i>
-            </a>
-          </li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-youtube fs-6"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-instagram fs-6"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-facebook fs-6"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-twitter-x fs-6"></i></a></li>
         </ul>
       </aside>
     </div>
   </div>
 
-  <footer class="container-fluid text-center 6 small p-4 mt-5">
-    &copy; 2026 Gregory Nagels
-  </footer>
+  <footer class="footer">
+    &copy;  <span id="year"></span> Gregory Nagels
+    </footer></div> 
 </body>
 
 </html>
